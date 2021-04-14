@@ -12,10 +12,12 @@ class MainActivity : AppCompatActivity() {
 
         val human = Human("トモヤ", 41, "プログラム")
 
+        human.think()
         human.say()
 
-        human.think()
+        val human2 = Human("ヒロト", 12, "プログラム")
 
-
-    }
+        human2.say()
+        Log.d("kotlintest", "私の名前は" + human2.name +"です。" + human2.age +"歳になりました。")
+        }
 }
