@@ -6,7 +6,7 @@ open class Human:Animal, thinkable {
 
     var hobby : String
 
-    constructor(name: String, age: Int, hobby: String): super(name, age, hobby){
+    constructor(name: String, age: Int, hobby: String): super(name, age){
         this.hobby = hobby
     }
 

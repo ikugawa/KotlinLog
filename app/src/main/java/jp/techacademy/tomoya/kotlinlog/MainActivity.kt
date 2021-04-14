@@ -15,9 +15,10 @@ class MainActivity : AppCompatActivity() {
         human.think()
         human.say()
 
-        val human2 = Human("ヒロト", 12, "プログラム")
+        val human2 = Human("ヒロト", 12, "アンドロイド")
 
+        human2.think()
         human2.say()
-        Log.d("kotlintest", "私の名前は" + human2.name +"です。" + human2.age +"歳になりました。")
+
         }
 }
